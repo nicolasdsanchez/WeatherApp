@@ -1,0 +1,50 @@
+﻿@page "/weather"
+@using System.Net.Http.Json
+@using System.Net.Http.Headers
+@using Newtonsoft.Json
+@using System.Threading.Tasks
+
+<h1>Estado del Tiempo Actual</h1>
+
+@if (weatherData != null)
+{
+    <div class="weather-container">
+        <div class="weather-icon">
+            <img src="@($"http://openweathermap.org/img/w/{weatherData.weather[0].icon}.png")" alt="Weather Icon" />
+        </div>
+        <div class="weather-info">
+            <div class="weather-city">@weatherData.name, @weatherData.sys.country</div>
+            <div class="weather-temp">@weatherData.main.temp.ToString("0.#")&deg;C</div>
+            <div class="weather-desc">@weatherData.weather[0].description</div>
+        </div>
+    </div>
+}
+else
+{
+    <p>Cargando...</p>
+}
+
+@code {
+    private WeatherData weatherData;
+
+    protected override async Task OnInitializedAsync()
+    {
+        await UpdateWeatherData();
+    }
+
+    private async Task UpdateWeatherData()
+    {
+        var httpClient = new HttpClient();
+        httpClient.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+
+        var response = await httpClient.GetAsync($"http://api.openweathermap.org/data/2.5/weather?q=Madrid&appid=YOUR_API_KEY&units=metric");
+
+        if (response.IsSuccessStatusCode)
+        {
+            var json = await response.Content.ReadAsStringAsync();
+            weatherData = JsonConvert.DeserializeObject<WeatherData>(json);
+            StateHasChanged();
+        }
+    }
+}
+

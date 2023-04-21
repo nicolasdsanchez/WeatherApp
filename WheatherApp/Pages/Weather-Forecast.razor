@@ -1,0 +1,46 @@
+﻿@page "/weather-forecast"
+@using System.Net.Http.Json
+
+<h1>Weather Forecast</h1>
+
+<form>
+    <label for="location">Location:</label>
+    <input type="text" id="location" @bind-value="location" />
+    <button type="button" @onclick="GetWeatherData">Get Weather Data</button>
+</form>
+
+@if (weatherData != null)
+{
+    <h2>@weatherData.data.</h2>
+    <p>@WeatherData.weather[0].description</p>
+    <p>Temperature: @WeatherData.main.temp</p>
+    <p>Feels like: @WeatherData.main.feels_like</p>
+    <p>Humidity: @WeatherData.main.humidity</p>
+}
+
+@code {
+    private string location;
+    private WeatherData weatherData;
+
+    private async Task GetWeatherData()
+    {
+        var httpClient = new HttpClient();
+        var response = await httpClient.GetFromJsonAsync<WeatherData>($"https://api.openweathermap.org/data/2.5/weather?q={location}&appid=cad399f8c9bd0cf7be08664122839379&units=metric");
+        weatherData = response;
+    }
+
+   
+
+    private class Weather
+    {
+        public string description { get; set; }
+    }
+
+    private class Main
+    {
+        public double temp { get; set; }
+        public double feels_like { get; set; }
+        public int humidity { get; set; }
+    }
+}
+

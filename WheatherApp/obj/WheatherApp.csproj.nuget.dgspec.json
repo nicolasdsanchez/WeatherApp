@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\nicolas\\source\\repos\\WheatherApp\\WheatherApp\\WheatherApp.csproj": {}
+    "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\WheatherApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\nicolas\\source\\repos\\WheatherApp\\WheatherApp\\WheatherApp.csproj": {
+    "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\WheatherApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\nicolas\\source\\repos\\WheatherApp\\WheatherApp\\WheatherApp.csproj",
+        "projectUniqueName": "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\WheatherApp.csproj",
         "projectName": "WheatherApp",
-        "projectPath": "C:\\Users\\nicolas\\source\\repos\\WheatherApp\\WheatherApp\\WheatherApp.csproj",
+        "projectPath": "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\WheatherApp.csproj",
         "packagesPath": "C:\\Users\\nicolas\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\nicolas\\source\\repos\\WheatherApp\\WheatherApp\\obj\\",
+        "outputPath": "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\nicolas\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
