@@ -1,0 +1,25 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\User\\Documents\\GitHub\\WeatherApp\\WheatherApp\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.WheatherApp.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.WheatherApp.props",
+      "PackagePath": "build\\WheatherApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.WheatherApp.props",
+      "PackagePath": "buildMultiTargeting\\WheatherApp.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.WheatherApp.props",
+      "PackagePath": "buildTransitive\\WheatherApp.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

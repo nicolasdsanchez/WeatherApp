@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "WCIlvYhe2r+kZ1aoU9qeQ6vuH5P1Jg4hZ8bRGsqdAzr2we0FUvYiWsux+5cw3ccFfWhA19oI93Qrx1PPqdncmw==",
+  "dgSpecHash": "hE3qDItMtH4ZJZlvnHEWVoXhIQBTSJB1ytyboFsMIH0PvblxoZFV01yLNuKTzT3sU55zUnGGAbUnFlV6PxVfPA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\nicolas\\source\\repos\\WeatherApp\\WheatherApp\\WheatherApp.csproj",
+  "projectFilePath": "C:\\Users\\User\\Documents\\GitHub\\WeatherApp\\WheatherApp\\WheatherApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\nicolas\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
+    "C:\\Users\\User\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512"
   ],
   "logs": []
 }

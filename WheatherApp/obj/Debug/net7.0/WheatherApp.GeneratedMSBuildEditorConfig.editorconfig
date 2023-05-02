@@ -9,37 +9,37 @@ build_property.EnforceExtendedAnalyzerRules =
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = WheatherApp
 build_property.RootNamespace = WheatherApp
-build_property.ProjectDir = C:\Users\nicolas\source\repos\WeatherApp\WheatherApp\
+build_property.ProjectDir = C:\Users\User\Documents\GitHub\WeatherApp\WheatherApp\
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = C:\Users\nicolas\source\repos\WeatherApp\WheatherApp
+build_property.MSBuildProjectDirectory = C:\Users\User\Documents\GitHub\WeatherApp\WheatherApp
 build_property._RazorSourceGeneratorDebug = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/App.razor]
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/App.razor]
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/MainLayout.razor]
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = TWFpbkxheW91dC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/Pages/Index.razor]
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/Pages/Index.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXgucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/Pages/Weather-Forecast.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlci1Gb3JlY2FzdC5yYXpvcg==
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/Pages/WeatherForecast.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlckZvcmVjYXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/Pages/WeatherComponent.razor]
-build_metadata.AdditionalFiles.TargetPath = UGFnZXNcV2VhdGhlckNvbXBvbmVudC5yYXpvcg==
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/RouteData.razor]
+build_metadata.AdditionalFiles.TargetPath = Um91dGVEYXRhLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/_Imports.razor]
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/nicolas/source/repos/WeatherApp/WheatherApp/Pages/_Host.cshtml]
+[C:/Users/User/Documents/GitHub/WeatherApp/WheatherApp/Pages/_Host.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcX0hvc3QuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 

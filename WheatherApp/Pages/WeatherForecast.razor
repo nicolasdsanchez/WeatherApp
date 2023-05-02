@@ -11,11 +11,12 @@
 
 @if (weatherData != null)
 {
-    <h2>@weatherData.data.</h2>
-    <p>@WeatherData.weather[0].description</p>
-    <p>Temperature: @WeatherData.main.temp</p>
-    <p>Feels like: @WeatherData.main.feels_like</p>
-    <p>Humidity: @WeatherData.main.humidity</p>
+    var data = weatherData.data; // create an object reference to access the data field
+    <h2>Location: @data[0].weather[0].description</h2>
+    <p></p>
+    <p>Temperature: @data[0].temp</p>
+    <p>Feels like: @data[0].feels_like</p>
+    <p>Humidity: @data[0].humidity</p>
 }
 
 @code {

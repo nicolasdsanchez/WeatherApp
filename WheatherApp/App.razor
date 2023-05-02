@@ -1,6 +1,11 @@
 ﻿<Router AppAssembly="@typeof(App).Assembly">
     <Found Context="routeData">
-        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)" />
+        <RouteView RouteData="@routeData" DefaultLayout="@typeof(MainLayout)">
+            <Route DefaultRoute>
+                <RouteData RouteName="/weather-forecast" />
+                <WeatherForecast />
+            </Route>
+        </RouteView>
         <FocusOnNavigate RouteData="@routeData" Selector="h1" />
     </Found>
     <NotFound>
